@@ -7,7 +7,7 @@ namespace pruebaslogin
         static void Main(string[] args)
         {
             int v = 9;
-            int v1 = 9;
+            int v1 = 4;
             double v2 = 11;
             double v3 = 11;
             string name;
@@ -21,7 +21,10 @@ namespace pruebaslogin
             {
                 name = "Joel";
             }
+
             name = data ? "Alex" : "Joel";
+
+
             Console.WriteLine("rta {0}", name);
 
             Console.ReadLine();
