@@ -6,24 +6,17 @@ namespace pruebaslogin
     {
         static void Main(string[] args)
         {
-            int v = 9;
-            int v1 = 9;
-            double v2 = 11;
-            double v3 = 11;
-            string name;
-            var data = v != v1;
 
-            if (data)
+            string[] name = { "alex", "Joel", "pdhn" };
+            int[] age = { 52, 45, 65 };
+            //for (int i = 0; i <  name.Length; i++)
+            //{
+            //    Console.WriteLine("rta {0}", name[i] + " age " + age[i]);
+            //}
+            foreach (var item in name)
             {
-                name = "Alex";
+                Console.WriteLine("rta {0}", item);
             }
-            else
-            {
-                name = "Joel";
-            }
-            name = data ? "Alex" : "Joel";
-            Console.WriteLine("rta {0}", name);
-
             Console.ReadLine();
         
 
